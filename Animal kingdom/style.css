@@ -1,0 +1,46 @@
+body {
+    background-color: gold;
+    color: indigo;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: midnightblue;
+    color: olive;
+}
+
+.land {
+    border: inset;
+    border-width: 8px;
+    border-color: peru;
+    border-radius: 10px;
+}
+
+.info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info p {
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.info:hover p {
+    opacity: 1;
+}
+
+.info :hover img {
+    opacity: 0.3;
+}
+
+.info {
+    position: relative;
+}
